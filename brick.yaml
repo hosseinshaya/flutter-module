@@ -32,7 +32,7 @@ vars:
     prompt: "📦 Enter module name in dart format (for example module_name)?"
   entities:
     type: array
-    defaults:
-      - {{name}}
+    # defaults:
+    #   - {{name}}
     description: Models
     prompt: "🧩 Enter entity names want to generate?"
