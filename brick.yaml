@@ -31,7 +31,7 @@ vars:
     description: Module name
     prompt: "📦 Enter module name in dart format (for example module_name)?"
   entities:
-    type: boolean
+    type: array
     defaults:
       - {{name}}
     description: Models
