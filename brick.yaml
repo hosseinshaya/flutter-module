@@ -30,3 +30,11 @@ vars:
     type: string
     description: Module name
     prompt: "📦 Enter module name in dart format (for example module_name)?"
+  additionals:
+    type: array
+    defaults: [model, api_data_source]
+    description: The additional you can have on the module
+    prompt: "🧩 What additional should the module have?"
+    values:
+      - model
+      - api_data_source
