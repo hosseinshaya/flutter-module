@@ -2,6 +2,6 @@
 import 'package:core/core.dart';
 
 @JsonCodable()
-class {{name.pascalCase()}} {
+class {{name.pascalCase()}}Entity {
   // TODO: create model params here
 }

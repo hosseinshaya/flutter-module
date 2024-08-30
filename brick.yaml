@@ -30,9 +30,8 @@ vars:
     type: string
     description: Module name
     prompt: "📦 Enter module name in dart format (for example module_name)?"
-  entities:
-    type: array
-    # defaults:
-    #   - {{name}}
-    description: Models
-    prompt: "🧩 Enter entity names want to generate?"
+  include_entity:
+    type: boolean
+    default: true
+    description: Entity
+    prompt: "🧩 Should have an entity with module name?"
